@@ -36,6 +36,7 @@ Such a plugin will replace the words on pages:
 
 ```php
 <?php
+$eventName = $modx->event->name;
 switch($eventName) {
     case 'OnWebPagePrerender': 
         // words to be replaced
